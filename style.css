@@ -380,8 +380,8 @@ img {
     color: #757575;
   }
   
-.feature-item {
-    /* width: 270px; */
+.feature-item{
+  
 }
 @media screen and (min-width:768px) {
   .feture-item {
