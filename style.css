@@ -547,7 +547,7 @@ ul {
   }
 
 /* ==============clients=============== */
-.clients-h2{
+.clients-title{
 font-weight: 700;
 font-size: 28px;
 line-height: 33px;
@@ -585,7 +585,6 @@ margin-bottom: 30px;
   }
   
   .clients-icon {
-
     fill: #AFB1B8;
   }
   

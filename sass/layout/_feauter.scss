@@ -1,0 +1,45 @@
+.wrap-icon {
+    background-color: $color-secondary-white;
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-secondary-black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.feature_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color:$color-grey;
+}
+@media screen and (min-width:768px) {
+      .feature-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+      }
+      .feture-item { 
+        width: calc((100% - 4 * 15px) / 2);
+        margin: 15px;
+      }
+      .feature-title {
+       text-align: start;
+      }
+    }
+    @media screen and (min-width:1200px) {
+      .feture-item {
+        width: calc((100% - 8 * 15px) / 4);
+      }
+  
+  } 
