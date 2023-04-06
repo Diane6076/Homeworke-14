@@ -1,5 +1,5 @@
+@import "utils/variables";
 @import "base/reset";
-@import "utils/variables.scss";
 @import "components/buttons";
 @import "components/containers";
 @import "components/item";
@@ -7,10 +7,10 @@
 @import "components/logo";
 @import "components/footer-adderess";
 @import "components/footer-links";
-@import "layout/clients";
-@import "layout/feature";
-@import "layout/hero";
 @import "layout/header";
+@import "layout/hero";
+@import "layout/feature";
 @import "layout/whatwedo";
 @import "layout/our-team";
+@import "layout/clients";
 @import "layout/footer";
