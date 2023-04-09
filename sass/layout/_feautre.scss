@@ -6,6 +6,13 @@
     padding-top: 25px;
     margin-bottom: 30px;
 }
+.feature-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $color-grey;
+}
 .feature-title {
     font-weight: 700;
     font-size: 14px;
@@ -16,13 +23,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
-.feature_text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color:$color-grey;
-}
+
 @media screen and (min-width:768px) {
       .feature-list {
         display: flex;
