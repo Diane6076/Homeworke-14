@@ -371,14 +371,14 @@ a {
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: 30px;
+  background-color: #757575;
 }
 
-.icon {
+.feature-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .feature-title {
@@ -599,5 +599,81 @@ a {
 @media screen and (min-width: 1200px) {
   .clients-item {
     width: calc((100% - 180px) / 6);
+  }
+}
+.footer {
+  background-color: #2f303a;
+  font-size: 14px;
+}
+
+.web {
+  width: 100%;
+  height: 252px;
+  padding: 30px;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+}
+
+.web2 {
+  color: rgb(30, 173, 255);
+}
+
+.web3 {
+  color: #FFF;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.cit {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.rex {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(122, 121, 121, 0.837);
+}
+
+.clik {
+  text-align: center;
+  font-size: 23px;
+}
+
+.folow {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  color: #FFF;
+  background-color: #2196F3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .web2,
+  .footer-logo {
+    color: #000;
   }
 }/*# sourceMappingURL=main.css.map */
