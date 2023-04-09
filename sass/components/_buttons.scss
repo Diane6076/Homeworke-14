@@ -1,0 +1,25 @@
+// .hero-but{
+// border: none;
+// border-color: transparent;
+// cursor: pointer;
+// }
+// .folow{
+//     border: none;
+//     border-color: transparent;
+//     cursor: pointer;
+// }
+.hero-but{
+    font-weight: 700;
+    font-style: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: $color-secondary-white;
+    background-color:  $color-secondary-blue;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0);
+    border: none;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    
+}
