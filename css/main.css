@@ -437,6 +437,28 @@ a {
 }
 .section-do {
   display: none;
+  background-color: #F5F4FA;
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.what-we {
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-item img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -444,6 +466,9 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
