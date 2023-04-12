@@ -1,5 +1,4 @@
 .wrap-icon {
-    background-color: $color-secondary-white;
     border-radius: 4px;
     text-align: center;
     padding-bottom: 25px;
@@ -7,13 +6,14 @@
     margin-bottom: 30px;
     background-color: $color-rgba-darkgray;
 }
-.feature-item {
+.feature-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-
+  color: $color-grey;
 }
+
 .feature-title {
     font-weight: 700;
     font-size: 14px;
@@ -45,3 +45,16 @@
       }
   
   } 
+  
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}

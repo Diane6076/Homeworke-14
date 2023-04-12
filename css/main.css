@@ -386,7 +386,6 @@ a {
 }
 
 .wrap-icon {
-  background-color: #FFFFFF;
   border-radius: 4px;
   text-align: center;
   padding-bottom: 25px;
@@ -395,11 +394,12 @@ a {
   background-color: rgba(122, 121, 121, 0.837);
 }
 
-.feature-item {
+.feature-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .feature-title {
@@ -435,6 +435,19 @@ a {
     width: calc((100% - 120px) / 4);
   }
 }
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
 .section-do {
   display: none;
   background-color: #F5F4FA;
