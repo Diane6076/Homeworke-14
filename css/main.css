@@ -338,8 +338,8 @@ a {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/img/team.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/team.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../src/img/team.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../src/img/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -370,14 +370,14 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/img/team.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/team.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../src/img/team.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../src/img/team.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/img/team.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/team.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../src/img/team.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../src/img/team.jpg);
   }
 }
 
@@ -419,19 +419,12 @@ ul {
   padding-bottom: 20px;
 }
 
-.feature-item .wrap_icon {
-  background-color: #F5F4FA;
-  padding: 10px 0;
-  margin-bottom: 20px;
-}
-
 .wrap-icon {
   border-radius: 4px;
   text-align: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding: 25px 102px;
   margin-bottom: 30px;
-  background-color: rgba(122, 121, 121, 0.837);
+  background-color: #F5F4FA;
 }
 
 .feature-title {

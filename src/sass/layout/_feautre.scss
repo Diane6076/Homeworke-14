@@ -26,19 +26,12 @@ text-align: center;
 padding-bottom: 20px;
 }
 
-.feature-item .wrap_icon {
-background-color:$color-third-white;
-padding: 10px 0;
-margin-bottom: 20px;
-}
-
 .wrap-icon {
      border-radius: 4px;
      text-align: center;
-      padding-bottom: 25px;
-     padding-top: 25px;
+     padding: 25px 102px;
      margin-bottom: 30px;
-     background-color: $color-rgba-darkgray;
+     background-color: $color-third-white;
  }
 .feature-title {
   font-weight: 700;
