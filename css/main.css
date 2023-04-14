@@ -114,6 +114,18 @@ a {
   margin: 0 auto;
 }
 
+.nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,8 +135,34 @@ a {
           justify-content: space-between;
 }
 
+.site {
+  display: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .st {
   display: none;
+}
+
+.menu-stydio {
+  margin-right: 54px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+
+.menu-portfolio {
+  margin-right: 54px;
+  color: rgb(0, 0, 0);
+}
+
+.menu-contacts {
+  color: rgb(0, 0, 0);
 }
 
 .menu-site-contact {
@@ -137,15 +175,32 @@ a {
           flex-direction: row;
 }
 
-.menu-site-contact:not(last-child) {
+.menu-site-contact:not(:last-child) {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .menu-site-contact {
-    display: none;
-  }
+.header-contact-item:not(:last-child) {
+  margin-right: 44px;
 }
+
+.item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.item:hover {
+  color: rgb(30, 173, 255);
+}
+
+.link-gmail {
+  color: rgba(122, 121, 121, 0.837);
+}
+
+.link-number {
+  color: rgba(122, 121, 121, 0.837);
+}
+
 @media screen and (min-width: 768px) {
   .header {
     display: -webkit-box;
@@ -171,27 +226,6 @@ a {
             align-items: center;
   }
 }
-.nav-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.site {
-  display: none;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
 @media screen and (min-width: 768px) {
   .menu {
     display: -webkit-box;
@@ -276,9 +310,6 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .header-contact li:nth-child(2) {
-    margin-left: 30px;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contact-item:not(:last-child) {
@@ -291,52 +322,6 @@ a {
             flex-direction: column;
   }
 }
-.item {
-  width: 122px;
-  height: 16px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.item:not(last-child) {
-  margin-right: 55px;
-}
-
-.item:hover {
-  color: rgb(30, 173, 255);
-}
-
-.menu-re {
-  width: 122px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000;
-}
-
-.menu-re1 {
-  color: rgb(0, 0, 0);
-}
-
-.menu-re2 {
-  color: rgb(0, 0, 0);
-}
-
-.link-re3 {
-  color: rgb(30, 173, 255);
-}
-
-.link-re4 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: rgba(122, 121, 121, 0.837);
-}
-
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../src/img/team.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../src/img/team.jpg);
@@ -360,7 +345,7 @@ a {
 }
 .hero_title {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 55px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
@@ -383,6 +368,8 @@ a {
 
 .hero-title {
   color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 
 h2 {

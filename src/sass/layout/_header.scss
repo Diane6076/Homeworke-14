@@ -3,28 +3,86 @@
   margin: 0 auto;
 }
 
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
-  }
+}
+  .site {
+    display: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
   .st{
     display: none
  }
 
+ .menu-stydio {
+  // width: 122px;
+  // height: 16px;
+  margin-right: 54px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-black;
+}
+
+.menu-portfolio{
+  margin-right: 54px;
+  color:$color-secondary-rgba-gray;
+}
+
+.menu-contacts  {
+  color: $color-secondary-rgba-gray;
+}
+ 
 .menu-site-contact {
   display: flex;
   flex-direction: row;
 }
 
-.menu-site-contact:not(last-child) {
+.menu-site-contact:not(:last-child) {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .menu-site-contact {
-    display: none;
-  }
+.header-contact-item:not(:last-child) {
+  margin-right: 44px;
 }
+
+.item{
+  // width: 122px;
+  // height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.item:hover{
+  color:$color-rgb-blue;
+}
+
+.link-gmail {
+  color: $color-rgba-darkgray;
+}
+
+.link-number {
+    color: $color-rgba-darkgray;
+}
+
+// @media screen and (max-width: 768px) {
+//   .menu-site-contact {
+//     display: none;
+//   }
+// }
 
 @media screen and (min-width: 768px) {
     .header {
@@ -43,21 +101,7 @@
     }
   }
 
-  .nav-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.site {
-    display: none;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-}
+ 
 
 @media screen and (min-width: 768px) {
     .menu {
@@ -102,7 +146,7 @@
     }
   
     .header-icon {
-      fill: #757575;
+      fill: $color-grey;
       margin-right: 10px;
     }
   
@@ -133,7 +177,7 @@
       align-items: center;
     }
 .header-contact li:nth-child(2) {
-      margin-left: 30px;
+      // margin-left: 30px;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -146,44 +190,5 @@
 
   }
 
-.item{
-    width: 122px;
-    height: 16px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.item:not(:last-child) {
-  margin-right: 44px;
-}
 
-.item:hover{
-    color:$color-rgb-blue;
-}
-.menu-re {
-    width: 122px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: $color-black;
-}
 
-.menu-re1 {
-    color:$color-secondary-rgba-gray;
-}
-
-.menu-re2 {
-    color: $color-secondary-rgba-gray;
-}
-
-.link-re3 {
-  color: $color-rgba-darkgray;
-}
-
-.link-re4 {
-    align-items: center;
-    color: $color-rgba-darkgray;
-}
