@@ -201,6 +201,11 @@ a {
   color: rgba(122, 121, 121, 0.837);
 }
 
+@media screen and (max-width: 768px) {
+  .menu-site-contact {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .header {
     display: -webkit-box;
