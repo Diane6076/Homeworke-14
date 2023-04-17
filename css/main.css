@@ -478,8 +478,9 @@ ul {
 .section-do {
   display: none;
   background-color: #F5F4FA;
-  margin-top: 70px;
+  margin-top: 50px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .what-we {
