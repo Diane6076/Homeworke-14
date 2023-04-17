@@ -478,9 +478,8 @@ ul {
 .section-do {
   display: none;
   background-color: #F5F4FA;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
-  padding-bottom: 10px;
 }
 
 .what-we {
@@ -492,7 +491,7 @@ ul {
 }
 
 .work-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .work-item img {
@@ -538,6 +537,10 @@ ul {
   margin-top: 100px;
   text-align: center;
   padding-bottom: 10px;
+}
+
+.htwo {
+  margin-bottom: 18px;
 }
 
 .team-list {
